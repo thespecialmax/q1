@@ -1,0 +1,45 @@
+#defaultOptOutBanner {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:1000;
+  background:#3d3d3d;
+  opacity: 0.9;
+  height:auto;
+  line-height:24px;
+  color:#eeeeee;
+  text-align:center;
+  padding:3px 0;
+}
+
+#defaultOptOutBanner p {
+  margin:0;
+  padding:0;
+}
+
+#defaultOptOutBanner a {
+  cursor:pointer;
+  color:#ffffff;
+  display:inline-block;
+  border-radius:3px;
+  text-decoration:none;
+  padding:0 6px;
+  margin-left:8px;
+}
+
+#defaultOptOutBanner .optout-accept {
+  background:#007700;
+}
+
+#defaultOptOutBanner .optout-accept:hover {
+  background:#009900;
+}
+
+#defaultOptOutBanner .optout-decline {
+  background:#990000;
+}
+
+#defaultOptOutBanner .optout-decline:hover {
+  background:#bb0000;
+}
